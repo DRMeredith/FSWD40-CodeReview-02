@@ -1,8 +1,12 @@
+body {
+  font-family: "Lobster", cursive; }
+
 .topbox {
   background-color: #190eb7;
   margin: 20px 20px 0px 20px;
   height: 110px;
-  padding: 20px; }
+  padding: 20px;
+  border-radius: 25px; }
 
 .headtext {
   padding-bottom: 50px;
@@ -21,7 +25,9 @@
 .navbar {
   background-color: grey;
   margin: 0px 20px 1px 20px;
-  color: white; }
+  color: white;
+  border-radius: 25px;
+  padding: 5px; }
 
 ul {
   list-style-type: none;
@@ -59,12 +65,14 @@ figure {
   transition: transform 0.5s;
   transition: border-width 0.1s;
   transition: color 0.1s;
-  transition: font-weight 0.1s; }
+  transition: font-weight 0.1s;
+  border-radius: 25px; }
   figure img {
     width: 450px;
     max-width: 100%;
     height: 400px;
-    z-index: 1; }
+    z-index: 1;
+    border-radius: 25px; }
   figure figcaption {
     height: 40px;
     margin-top: -6px;
@@ -87,14 +95,15 @@ h3 {
   text-align: left; }
 
 .rightcap {
-  text-align: right;
-  vertical-align: top; }
+  text-align: right; }
 
 .footer {
   text-align: center;
   font-size: 20px;
   color: white;
   background-color: #190eb7;
-  height: 35px; }
+  height: 35px;
+  margin: 20px;
+  border-radius: 25px; }
 
 /*# sourceMappingURL=Index.css.map */
